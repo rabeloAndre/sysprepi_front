@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-# Create your views here.
+def init(request):
+	return render(request, "consulta.html")
