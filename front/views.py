@@ -6,3 +6,6 @@ def index(request):
 def consulta(request):
 	return render(request, "consulta.html")
 
+def login(request):
+	return render(request, "login.html")
+
