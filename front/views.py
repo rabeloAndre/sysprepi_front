@@ -9,3 +9,5 @@ def consulta(request):
 def login(request):
 	return render(request, "login.html")
 
+def criarConta(request):
+	return render(request, "criar-conta.html")
