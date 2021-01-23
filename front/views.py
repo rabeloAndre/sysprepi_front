@@ -16,4 +16,4 @@ def criarConta(request):
 
 ############# ------------ SOCIO ----------------- ##########
 def indexSocio(request):
-	return render(request, "index-socio.html")
+	return render(request, "socio/index-socio.html")
