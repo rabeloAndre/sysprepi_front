@@ -20,3 +20,6 @@ def indexSocio(request):
 
 def solicitarConsulta(request):
 	return render(request, "socio/solicitar-consulta.html")
+
+def vizualizarConsultasAgendadas(request):
+	return render(request, "socio/vizualizar-consultas-agendadas.html")

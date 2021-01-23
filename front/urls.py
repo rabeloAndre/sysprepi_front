@@ -10,6 +10,7 @@ urlpatterns = [
     path('criar-conta', views_front.criarConta, name='criarConta'),
     path('index-socio', views_front.indexSocio, name='indexSocio'),
     path('solicitar-consulta', views_front.solicitarConsulta, name='solicitarConsulta'),
+    path('vizualizar-consultas-agendadas', views_front.vizualizarConsultasAgendadas, name='vizualizarConsultasAgendadas'),
 
 
 ]
