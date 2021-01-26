@@ -23,3 +23,9 @@ def solicitarConsulta(request):
 
 def vizualizarConsultasAgendadas(request):
 	return render(request, "socio/vizualizar-consultas-agendadas.html")
+
+def realizarDoacao(request):
+	return render(request, "socio/realizar-doacao.html")
+
+def vizualizarDoacoesRealizadas(request):
+	return render(request, "socio/vizualizar-doacoes-realizadas.html")
