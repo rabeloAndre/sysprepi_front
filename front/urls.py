@@ -13,6 +13,6 @@ urlpatterns = [
     path('vizualizar-consultas-agendadas', views_front.vizualizarConsultasAgendadas, name='vizualizarConsultasAgendadas'),
     path('realizar-doacao', views_front.realizarDoacao, name='realizarDoacao'),
     path('vizualizar-doacoes-realizadas', views_front.vizualizarDoacoesRealizadas, name='vizualizarDoacoesRealizadas'),
-
+    path('perfil-socio', views_front.perfilSocio, name='perfilSocio'),
 
 ]

@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 
+############# -------- PÚBLICO GERAL ----------- ##########
 def index(request):
 	return render(request, "index.html")
 
@@ -13,10 +14,12 @@ def criarConta(request):
 	return render(request, "criar-conta.html")
 
 
-
 ############# ------------ SOCIO ----------------- ##########
 def indexSocio(request):
 	return render(request, "socio/index-socio.html")
+
+def perfilSocio(request):
+	return render(request, "socio/perfil.html")
 
 def solicitarConsulta(request):
 	return render(request, "socio/solicitar-consulta.html")
